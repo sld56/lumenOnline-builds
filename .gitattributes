@@ -1,0 +1,2 @@
+chunks/** -text -diff
+*.zip -text -diff
