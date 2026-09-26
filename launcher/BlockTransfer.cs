@@ -116,7 +116,8 @@ namespace LumenDistribution
             if (File.Exists(staging) && new FileInfo(staging).Length == record.length && Hash(staging) == record.sha256)
             { ReusedBytes += record.length; return; }
             Directory.CreateDirectory(Path.GetDirectoryName(staging));
-            string partial = staging + "." + Guid.NewGuid().ToString("N") + ".partial";
+            // Keep the temporary basename short: appending to a long DLL name can exceed MAX_PATH.
+            string partial = Path.Combine(Path.GetDirectoryName(staging), Guid.NewGuid().ToString("N") + ".partial");
             try
             {
             using (var old = File.Exists(installed) ? File.OpenRead(installed) : null)
