@@ -1,7 +1,7 @@
 {
     "schema":  1,
-    "version":  "20260926-055551",
-    "createdUtc":  "2026-09-26T05:56:01.6058152Z",
+    "version":  "20260926-060302",
+    "createdUtc":  "2026-09-26T06:03:17.6302074Z",
     "executable":  "LumenOnline.exe",
     "blockSize":  4194304,
     "files":  [
@@ -49,17 +49,17 @@
                   {
                       "path":  "LumenOnline_Data/boot.config",
                       "length":  156,
-                      "sha256":  "d91898115adda7cf947087620d8426b690c240e41908893c07570db5b0e3f714",
+                      "sha256":  "bab8f8b13c924ea581ff6008721ee6b003624747c6936241e27accaab138a646",
                       "blocks":  [
-                                     "d91898115adda7cf947087620d8426b690c240e41908893c07570db5b0e3f714"
+                                     "bab8f8b13c924ea581ff6008721ee6b003624747c6936241e27accaab138a646"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/globalgamemanagers",
                       "length":  373924,
-                      "sha256":  "84c3539b443a53fa00c9c62f531bdb79a906d8f7e28d2f8fb8d4d2182bc8fa33",
+                      "sha256":  "ae51953ef58e6e36887294d89ab636c759d780b992e680d2d5a0f99e5f88c4ec",
                       "blocks":  [
-                                     "84c3539b443a53fa00c9c62f531bdb79a906d8f7e28d2f8fb8d4d2182bc8fa33"
+                                     "ae51953ef58e6e36887294d89ab636c759d780b992e680d2d5a0f99e5f88c4ec"
                                  ]
                   },
                   {
@@ -90,17 +90,17 @@
                   {
                       "path":  "LumenOnline_Data/Managed/Assembly-CSharp.dll",
                       "length":  506880,
-                      "sha256":  "3f16685a298e590028b8f14428390c7d6401df4b3fb52c4e4d177fbabcd0c808",
+                      "sha256":  "ec2d81acc0b4800a69811e6dc90d111b14a45efed16893f07b02dfafa021cf74",
                       "blocks":  [
-                                     "3f16685a298e590028b8f14428390c7d6401df4b3fb52c4e4d177fbabcd0c808"
+                                     "ec2d81acc0b4800a69811e6dc90d111b14a45efed16893f07b02dfafa021cf74"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/Managed/LumenOnline.Runtime.dll",
                       "length":  371200,
-                      "sha256":  "ef4c5257a0e0b871b683ba4c80b82758a5e4f74812f15e1c03bf8f94e91aae98",
+                      "sha256":  "b9b0907c82b9d75e0a10e3faf1ffc951e4002c7c4af3015373a29143fa33bf3b",
                       "blocks":  [
-                                     "ef4c5257a0e0b871b683ba4c80b82758a5e4f74812f15e1c03bf8f94e91aae98"
+                                     "b9b0907c82b9d75e0a10e3faf1ffc951e4002c7c4af3015373a29143fa33bf3b"
                                  ]
                   },
                   {
@@ -1565,26 +1565,26 @@
                   {
                       "path":  "LumenOnline_Data/Plugins/x86_64/lib_burst_generated.dll",
                       "length":  1243648,
-                      "sha256":  "ac413fd16d01dcd088c7d38f18a9fdf8d017a74ce05f5b6a0956847a23c44a13",
+                      "sha256":  "01c9224ccd706fc631c688b853efc89c8bcab8e4ee6e99d9c47913801fa62b2e",
                       "blocks":  [
-                                     "ac413fd16d01dcd088c7d38f18a9fdf8d017a74ce05f5b6a0956847a23c44a13"
+                                     "01c9224ccd706fc631c688b853efc89c8bcab8e4ee6e99d9c47913801fa62b2e"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/resources.assets",
-                      "length":  40054936,
-                      "sha256":  "5935c0534356fa2e49a4b597abc5ab5324c23159acbee9a8f689f53daedea626",
+                      "length":  40056840,
+                      "sha256":  "755a4f36a1276a2445f780592ce9ae63d59a73c166a2595e727cbafb85adba55",
                       "blocks":  [
-                                     "8ab2dbb350ff195ebb3be3a2449e6d46da27c6d3f286e21fa700ab89e23ba33b",
-                                     "e21a5c4b239dee564fcf432d14c7920074e9814d04fa34b8c2bc6edafde05069",
-                                     "640adbca1cef71d9f750e7091cc8fc21e91e698679621bf5262a43f6a51a3956",
-                                     "43bcc44d94fdc830dccbbcff51da94f6c12ffb77156dd62be602626db0887075",
-                                     "8df151adefb7391ad40cc628ff80b96f4e2db550b8b005614dee5aba3787e7f8",
-                                     "2c62c9875f5737fd106cbac8d53b68de50a405f2648ffb058afd9a5f77306bd7",
-                                     "1ca6e340dbe29e301a38a73cb85f119a4e1924d85fa178be06d3e8d190dc6e8c",
-                                     "39a13cb3e7d4e1782df5d7b7d4a18298a6c43160bc0f15062d2dccc933aeb34e",
-                                     "46d3e9dd331938b85422c38128caae1c3466520788183d5cb39fb235f0991f09",
-                                     "9065ab7284c437b17f367e5ad5c0b57f2539bc92957e6e3d7819cfa562acce3a"
+                                     "124cd8865f7850e3c0882fc5c42b92890def09aecf8d0eb60a8da47a060c9a1f",
+                                     "55cc4f2a4aa894784703038cb70928ec94874cb9e43defceb36d3c3d803e9f85",
+                                     "74ec73135f5b595ff2bd153b6c6e5bf3dcef6f4dd53fe3a3018f3450c9bb8d7e",
+                                     "18e512d056ce4f31464ecc34ffa59a71ec13f4e4ae5e6c5d11e68f67e4f83769",
+                                     "1cc98fadf3950e6ff64a5839bd778c6a2c2ab50b2e8f026efb1772874af5f72e",
+                                     "b80b91179c47eca12f4116583e8e12dd37e13d79cc342fdd44411755b9183759",
+                                     "880f4b9645dab11755d014c08378890a2cd8394c55b6e6b1dbfc16ed0594b9c1",
+                                     "d876742d1ca92eaed7b6d8a27a3bfefa8b236dcfcf13ece978f4aace5dce031f",
+                                     "71d0e402501a76c48c3df5188562ed206a795e0cdf62b133c6baf50eff2af9f1",
+                                     "170a16479ab1c1cf47cafe2ab978e7324ac50e9097f9b1c6874b36243bcb7d8a"
                                  ]
                   },
                   {
