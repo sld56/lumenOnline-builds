@@ -1,7 +1,7 @@
 {
     "schema":  1,
-    "version":  "20260926-044835",
-    "createdUtc":  "2026-09-26T04:49:04.7612802Z",
+    "version":  "20260926-055405",
+    "createdUtc":  "2026-09-26T05:54:20.8514630Z",
     "executable":  "LumenOnline.exe",
     "blockSize":  4194304,
     "files":  [
@@ -49,25 +49,25 @@
                   {
                       "path":  "LumenOnline_Data/boot.config",
                       "length":  156,
-                      "sha256":  "eea27df1c81456b944f57d30c4332898a4938a7e29ca8fa877e1262bf33a65ab",
+                      "sha256":  "2f6f3344d37098eb8b7ca1bc0e46ce3ff7bd4783a07823e25e06dec688f8872d",
                       "blocks":  [
-                                     "eea27df1c81456b944f57d30c4332898a4938a7e29ca8fa877e1262bf33a65ab"
+                                     "2f6f3344d37098eb8b7ca1bc0e46ce3ff7bd4783a07823e25e06dec688f8872d"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/globalgamemanagers",
                       "length":  373924,
-                      "sha256":  "0d59a88685b7a5773e489603ae75f028569df329b8161bbceeec14f42dbfd896",
+                      "sha256":  "75a365fb7d40ce31940663292027e7eff5c0ef0721f1f83bd280ae49f6256a3c",
                       "blocks":  [
-                                     "0d59a88685b7a5773e489603ae75f028569df329b8161bbceeec14f42dbfd896"
+                                     "75a365fb7d40ce31940663292027e7eff5c0ef0721f1f83bd280ae49f6256a3c"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/globalgamemanagers.assets",
                       "length":  1843364,
-                      "sha256":  "491db77b7423099d0a176bda76c67563bc2ef480c25d64c98acc156bd334a663",
+                      "sha256":  "c48457d670a2ba64aaba9f15a0ccf177c1846c14a85aab96ad4b13fd1b02fcce",
                       "blocks":  [
-                                     "491db77b7423099d0a176bda76c67563bc2ef480c25d64c98acc156bd334a663"
+                                     "c48457d670a2ba64aaba9f15a0ccf177c1846c14a85aab96ad4b13fd1b02fcce"
                                  ]
                   },
                   {
@@ -89,18 +89,18 @@
                   },
                   {
                       "path":  "LumenOnline_Data/Managed/Assembly-CSharp.dll",
-                      "length":  501760,
-                      "sha256":  "a6d345056ed55cad5ca27b3d1c8bdc6aef37ecab56c662602b526ff9db4d686d",
+                      "length":  506368,
+                      "sha256":  "1fcd1c67b8b5e5ceafd20ffb734b8728e45a1c7ba933b901332ed44e7e1ff2dc",
                       "blocks":  [
-                                     "a6d345056ed55cad5ca27b3d1c8bdc6aef37ecab56c662602b526ff9db4d686d"
+                                     "1fcd1c67b8b5e5ceafd20ffb734b8728e45a1c7ba933b901332ed44e7e1ff2dc"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/Managed/LumenOnline.Runtime.dll",
-                      "length":  369664,
-                      "sha256":  "7d39d5554dd1a06fb52317ee059f30bdfde7ab037dc0af91bf36259d0131ea7c",
+                      "length":  370176,
+                      "sha256":  "4ad79a0fa8b707018dcd7af71b968408717685a0feaf639cd82c4295fcceb548",
                       "blocks":  [
-                                     "7d39d5554dd1a06fb52317ee059f30bdfde7ab037dc0af91bf36259d0131ea7c"
+                                     "4ad79a0fa8b707018dcd7af71b968408717685a0feaf639cd82c4295fcceb548"
                                  ]
                   },
                   {
@@ -1573,9 +1573,9 @@
                   {
                       "path":  "LumenOnline_Data/resources.assets",
                       "length":  40056840,
-                      "sha256":  "41402305300ac8549b4620ae5f7a8c16de1001b8fb5d731374ced844bfbddf02",
+                      "sha256":  "ddba12c3e93c1fe373ee26b0cc7608817828dfb1d0dc20a3aabb67a65c601b1c",
                       "blocks":  [
-                                     "34a8470b300e453d4fd0fae1c79e9f574bde520904414badfb7663340a74b67b",
+                                     "178fe17c1a0953e5aeb0f86521ff1c9fdf3aac22599a25dad4b32909c5953664",
                                      "55cc4f2a4aa894784703038cb70928ec94874cb9e43defceb36d3c3d803e9f85",
                                      "74ec73135f5b595ff2bd153b6c6e5bf3dcef6f4dd53fe3a3018f3450c9bb8d7e",
                                      "18e512d056ce4f31464ecc34ffa59a71ec13f4e4ae5e6c5d11e68f67e4f83769",
