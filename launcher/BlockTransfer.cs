@@ -22,7 +22,29 @@ namespace LumenDistribution
         public static long ReusedBytes;
         public static string GitHubToken;
         public static void Commit(string temporary, string destination)
-        { if (File.Exists(destination)) File.Replace(temporary, destination, null); else File.Move(temporary, destination); }
+        {
+            for (int attempt = 0; ; attempt++)
+            {
+                try
+                {
+                    if (File.Exists(destination)) File.Replace(temporary, destination, null);
+                    else File.Move(temporary, destination);
+                    return;
+                }
+                catch (IOException error)
+                {
+                    int code = error.HResult & 0xffff;
+                    // Sharing/lock violations and ERROR_UNABLE_TO_REMOVE_REPLACED leave the old file intact.
+                    if (attempt < 4 && (code == 32 || code == 33 || code == 1175) && File.Exists(temporary))
+                    { System.Threading.Thread.Sleep(500); continue; }
+                    throw new IOException("Could not replace file: " + destination + ". Close programs using it and retry. " + error.Message, error);
+                }
+                catch (UnauthorizedAccessException error)
+                {
+                    throw new UnauthorizedAccessException("Cannot write file: " + destination + ". Check folder permissions and read-only attributes. " + error.Message, error);
+                }
+            }
+        }
         static string Hex(byte[] bytes) { return BitConverter.ToString(bytes).Replace("-", "").ToLowerInvariant(); }
         static string Digest(byte[] bytes, int count)
         { using (var sha = SHA256.Create()) return Hex(sha.ComputeHash(bytes, 0, count)); }
