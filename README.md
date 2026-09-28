@@ -1,7 +1,47 @@
-# LumenOnline game downloads
+# 루멘온라인 다운로드 · 테스트 안내
 
-Download LumenOnline-Launcher.zip, extract it to a writable folder, and run UpdateAndPlay.cmd. No Unity or Git installation is required.
+[런처 ZIP 다운로드](https://github.com/sld56/lumenOnline-builds/raw/refs/heads/main/LumenOnline-Launcher.zip)
 
-No GitHub account or token is required. Only compiled game files and launcher tools are published here.
+GitHub 로그인이나 토큰 없이 다운로드할 수 있습니다. 이 저장소에는 완성된 게임과 런처만 배포합니다.
 
-The first download is the full game. Later updates reuse matching 4 MiB blocks. Close the game before updating.
+## 처음 설치하기 (Windows)
+
+1. `LumenOnline-Launcher.zip`을 다운로드합니다.
+2. 게임을 둘 위치에 **압축을 먼저 풉니다.** ZIP 안에서 바로 실행하지 마세요. 예: `D:\LumenOnline` 또는 내 문서 안의 `LumenOnline` 폴더.
+3. 압축을 푼 폴더에서 **`UpdateAndPlay.cmd`를 더블클릭**합니다.
+4. 처음에는 게임 전체를 다운로드하며, 완료되면 게임이 실행됩니다. Unity나 Git을 설치할 필요는 없습니다.
+5. 온라인 대전은 게임에서 **온라인 대전**을 선택합니다. 서버 운영 시간에 이용해 주세요.
+
+## 어디에 설치되나요?
+
+**런처 압축을 푼 폴더 안의 `Game` 폴더에 설치됩니다.** 별도의 설치 위치 선택 창은 없습니다. 처음부터 원하는 위치에 압축을 풀어주세요. 파일을 쓸 수 있는 폴더를 사용하세요.
+
+예를 들어 `D:\LumenOnline`에 압축을 풀었다면:
+
+```text
+D:\LumenOnline\
+├─ UpdateAndPlay.cmd     ← 매번 이 파일로 실행
+├─ UpdateAndPlay.ps1     ← 다른 런처 파일들과 함께 보관
+├─ launcher.json         ← 다운로드 주소 설정
+├─ Game\                ← 다운로드된 게임
+│  └─ LumenOnline.exe
+└─ .Game-update\         ← 업데이트 관리·임시 파일
+```
+
+위 목록 외의 런처 파일도 함께 보관하세요. 바탕화면에는 `UpdateAndPlay.cmd`의 **바로가기**를 만들어두면 편합니다. CMD 파일만 따로 옮기면 실행되지 않습니다.
+
+## 다음 실행과 업데이트
+
+- 매번 같은 `UpdateAndPlay.cmd`로 실행합니다. 업데이트가 있으면 변경된 부분을 받은 뒤 게임을 시작합니다.
+- 업데이트 전에는 게임을 종료하세요. 진행 중인 대전을 런처가 강제로 종료하지는 않습니다.
+- 게임 실행 파일을 직접 실행하면 런처의 업데이트 확인을 거치지 않습니다.
+- 설치 위치를 바꾸려면 게임과 런처를 종료한 뒤 **런처 폴더 전체**를 옮기세요. 바탕화면 바로가기도 새 위치에 맞춰 다시 만드세요.
+- 새 런처 ZIP을 받았다면 기존 런처 폴더에 덮어쓰면 됩니다. `Game` 폴더를 유지하면 기존 게임 파일을 재사용합니다.
+- 계정과 저장 데이터는 게임 설치 폴더 외부에 별도로 저장되므로, 런처 업데이트로 삭제되지 않습니다.
+
+## 실행에 문제가 있거나 버그를 발견했다면
+
+- 다운로드나 업데이트가 실패하면 인터넷 연결과 디스크 여유 공간을 확인하고 같은 런처를 다시 실행하세요. 계속 실패하면 오류 창 내용을 보내주세요.
+- 온라인 접속이 안 되면 런처로 최신 버전을 받은 뒤 서버 운영 여부를 배포 담당자에게 확인하세요.
+- 버그 제보에는 **발생 날짜·시간 / 온라인 또는 AI 대전 여부 / 사용 캐릭터·카드 / 직전에 한 행동 / 예상한 결과와 실제 결과 / 스크린샷**을 적어주세요.
+- 온라인 대전 문제라면 양쪽 플레이어 이름도 함께 알려주세요. 서버 기록을 찾는 데 도움이 됩니다.
