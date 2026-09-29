@@ -1,0 +1,46 @@
+name: "UX·개선 제안"
+description: "버그는 아니지만 불편한 조작, 헷갈리는 화면·설명, 편의 기능과 게임 개선 요청"
+title: "[개선] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "동작 오류가 아니어도 괜찮습니다. 불편했던 상황만 알려주셔도 됩니다. 개선 방법을 직접 설계할 필요는 없습니다."
+  - type: dropdown
+    id: area
+    attributes:
+      label: "개선 영역"
+      options:
+        - "덱 편집·카드 선택"
+        - "대전 조작·진행 속도"
+        - "화면 배치·가독성·접근성"
+        - "설명·안내·학습"
+        - "온라인 로비·매칭"
+        - "설치·업데이트"
+        - "기타 편의 기능·게임 개선"
+    validations:
+      required: true
+  - type: textarea
+    id: situation
+    attributes:
+      label: "어떤 상황에서 불편했나요?"
+      placeholder: "예: 덱을 비교하려고 두 슬롯을 번갈아 열어야 해서 차이를 기억하기 어렵습니다."
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "어떤 점이 더 편해지면 좋겠나요?"
+      placeholder: "예: 두 덱에서 다른 카드만 한눈에 보고 싶습니다."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "생각한 개선 방법 (선택)"
+      description: "아이디어나 다른 게임의 참고 사례가 있으면 적어주세요."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "스크린샷·영상·추가 정보 (선택)"
+      description: "관련 화면이나 게임 버전, 자주 겪는 정도를 알려주셔도 좋습니다."

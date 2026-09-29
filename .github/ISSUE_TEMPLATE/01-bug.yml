@@ -1,0 +1,69 @@
+name: "버그 신고"
+description: "카드 효과·룰 판정 오류, 멈춤, 접속 실패처럼 의도와 다르게 동작하는 문제"
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "정상 동작하지만 사용하기 불편한 점은 ‘UX·개선 제안’을 선택해 주세요. 버그인지 확실하지 않아도 제보할 수 있습니다. 접수 후 재현 여부를 확인합니다."
+  - type: dropdown
+    id: area
+    attributes:
+      label: "문제 영역"
+      options:
+        - "카드 효과"
+        - "룰·판정·턴 진행"
+        - "화면·입력·조작 오류"
+        - "온라인 접속·동기화"
+        - "실행·업데이트·멈춤"
+        - "기타·분류 불확실"
+    validations:
+      required: true
+  - type: input
+    id: card
+    attributes:
+      label: "관련 캐릭터·카드"
+      placeholder: "카드 문제라면 카드명과 양쪽 캐릭터를 적어주세요."
+  - type: dropdown
+    id: mode
+    attributes:
+      label: "발생 모드"
+      options:
+        - "온라인 대전"
+        - "솔로·AI 대전"
+        - "덱 편집·메뉴"
+        - "실행·업데이트"
+        - "기타"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "재현 상황과 순서"
+      description: "어떤 상태에서 무엇을 했는지 적어주세요. 다시 발생시키는 방법을 몰라도 당시 상황을 적으면 됩니다."
+      placeholder: "1. 사용한 카드와 당시 상태\n2. 선택하거나 누른 것\n3. 문제가 발생한 시점"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "기대한 동작"
+      description: "카드 효과나 룰 문제라면 근거가 되는 문구도 함께 적어주세요."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "실제로 발생한 동작"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "게임 버전·발생 시간"
+      description: "알고 있는 경우 작성해 주세요. 버전은 업데이트 창의 Ready 표시에서 확인할 수 있습니다."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "스크린샷·영상·추가 정보"
+      description: "파일을 이 칸에 끌어다 놓거나 링크를 붙여주세요. 온라인 문제는 플레이어 이름도 도움이 됩니다."
