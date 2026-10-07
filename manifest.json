@@ -1,7 +1,7 @@
 {
     "schema":  1,
-    "version":  "20260930-155459",
-    "createdUtc":  "2026-09-30T16:00:54.1151504Z",
+    "version":  "20261007-163601",
+    "createdUtc":  "2026-10-07T16:37:30.9972032Z",
     "executable":  "LumenOnline.exe",
     "blockSize":  4194304,
     "files":  [
@@ -49,25 +49,25 @@
                   {
                       "path":  "LumenOnline_Data/boot.config",
                       "length":  156,
-                      "sha256":  "cd24110f694fa33ffdae9bd59e17e262a7ee3c14e597f44027dc7f4c45b2dcea",
+                      "sha256":  "59ea0538675512bcdda18a522da00d924c8ca1b7224fd0d03fe41e8cd3fb942e",
                       "blocks":  [
-                                     "cd24110f694fa33ffdae9bd59e17e262a7ee3c14e597f44027dc7f4c45b2dcea"
+                                     "59ea0538675512bcdda18a522da00d924c8ca1b7224fd0d03fe41e8cd3fb942e"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/globalgamemanagers",
-                      "length":  373988,
-                      "sha256":  "e2018544f72fcf3b84fd0ae19d9e8f9ab990c90bd1de2a796faf0a47cfe1eb7c",
+                      "length":  374244,
+                      "sha256":  "b808184a4dfeea991777988c4bfa88f2baecb957f584d69e7ef9ea95d3e07903",
                       "blocks":  [
-                                     "e2018544f72fcf3b84fd0ae19d9e8f9ab990c90bd1de2a796faf0a47cfe1eb7c"
+                                     "b808184a4dfeea991777988c4bfa88f2baecb957f584d69e7ef9ea95d3e07903"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/globalgamemanagers.assets",
-                      "length":  1843492,
-                      "sha256":  "dd54142f99c6c7ffe269a0a3edbe77dc182a86b916f5fe329f082d4610d09662",
+                      "length":  1844228,
+                      "sha256":  "11fda21a5644859a4f2000de12ffae2940a7b13f02b055b3a8811e0780e48303",
                       "blocks":  [
-                                     "dd54142f99c6c7ffe269a0a3edbe77dc182a86b916f5fe329f082d4610d09662"
+                                     "11fda21a5644859a4f2000de12ffae2940a7b13f02b055b3a8811e0780e48303"
                                  ]
                   },
                   {
@@ -82,25 +82,25 @@
                   {
                       "path":  "LumenOnline_Data/level0",
                       "length":  4964,
-                      "sha256":  "75b877e89d8c1ad92fc417466fbbd5f799f8e5571c2b6d465c3f212db5d9c475",
+                      "sha256":  "60c917a549d295fcdbabd53b3b4fcd386b26428238960cab41ebcba599744e38",
                       "blocks":  [
-                                     "75b877e89d8c1ad92fc417466fbbd5f799f8e5571c2b6d465c3f212db5d9c475"
+                                     "60c917a549d295fcdbabd53b3b4fcd386b26428238960cab41ebcba599744e38"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/Managed/Assembly-CSharp.dll",
                       "length":  519168,
-                      "sha256":  "d4d6a6b5af56081efd728d61dbf4f708222eaea3d58ce6085eb3c42ccae5ab06",
+                      "sha256":  "e04fb63ba0585bd39bab21183fd113704265ff1006cdc8484b550798f5290182",
                       "blocks":  [
-                                     "d4d6a6b5af56081efd728d61dbf4f708222eaea3d58ce6085eb3c42ccae5ab06"
+                                     "e04fb63ba0585bd39bab21183fd113704265ff1006cdc8484b550798f5290182"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/Managed/LumenOnline.Runtime.dll",
-                      "length":  375296,
-                      "sha256":  "79a337901a6401bf1d243a0081bacd4f3fdc3605ef7945ba04b14f97bc5b7cff",
+                      "length":  362496,
+                      "sha256":  "37be7e2883fb73ac6b631e6291161d8a00de987bbcefb575a85de6829530fce9",
                       "blocks":  [
-                                     "79a337901a6401bf1d243a0081bacd4f3fdc3605ef7945ba04b14f97bc5b7cff"
+                                     "37be7e2883fb73ac6b631e6291161d8a00de987bbcefb575a85de6829530fce9"
                                  ]
                   },
                   {
@@ -1572,19 +1572,19 @@
                   },
                   {
                       "path":  "LumenOnline_Data/resources.assets",
-                      "length":  40054936,
-                      "sha256":  "938e6d07b87b78538d991713f25c929db00969aa51959c618cbe6755e2968834",
+                      "length":  41905640,
+                      "sha256":  "56ca64ab8c7eeef5acc9e3fdcc58bfa9293be4948efbd2b758ad42ee43bb8d45",
                       "blocks":  [
-                                     "35fdff87e00d5f9a4ab4e16bc1e74e13bd81624486830129551e331a45ff6f7c",
-                                     "e21a5c4b239dee564fcf432d14c7920074e9814d04fa34b8c2bc6edafde05069",
-                                     "640adbca1cef71d9f750e7091cc8fc21e91e698679621bf5262a43f6a51a3956",
-                                     "43bcc44d94fdc830dccbbcff51da94f6c12ffb77156dd62be602626db0887075",
-                                     "8df151adefb7391ad40cc628ff80b96f4e2db550b8b005614dee5aba3787e7f8",
-                                     "2c62c9875f5737fd106cbac8d53b68de50a405f2648ffb058afd9a5f77306bd7",
-                                     "1ca6e340dbe29e301a38a73cb85f119a4e1924d85fa178be06d3e8d190dc6e8c",
-                                     "39a13cb3e7d4e1782df5d7b7d4a18298a6c43160bc0f15062d2dccc933aeb34e",
-                                     "46d3e9dd331938b85422c38128caae1c3466520788183d5cb39fb235f0991f09",
-                                     "3d6dca1c6c89c73de78b6cda2c91d6f7d82819ab35d49e1810985d287101ed28"
+                                     "0a01fde9b14d0a41ae46bd1fe5c9972129cad788b69e588b3d7f0539a707a117",
+                                     "9a43641c3c56d11873a12880546a6fd6b50be4cd452b8f9c7ab7fe28c7669892",
+                                     "2c411480f90c9ce9e23c03408aa85f9689195fab2dc0bf3b5c3cd056c5eb1b14",
+                                     "40ad87ceaf0af875faf76960e06491489288dd1951030f485d20e058fcc7801a",
+                                     "d2c88a8352cddcca61b94e376abd86d6083876c2cc46fe3e4295f9a8dace0be8",
+                                     "2ef76a2f23164e5781e2b45eb06a3b1e3ff570c679a906a66718fb9eb19fead6",
+                                     "c4c5216ff28be4a27aafffa5314fef4e6b2268172b668a832b9ace2ae3bfd572",
+                                     "7cd2c636e30d98b109274023a1afb6c128211e013ea6476465b3883b1a614d5f",
+                                     "fce51cc4839918be4f9bdf4bacba466a2ac2770820c87c732441b38a9807e3ae",
+                                     "0aa69dff715de11cf93d83bd6756ce5f94baec20d86d0165a83e5e0134e46614"
                                  ]
                   },
                   {
@@ -2420,18 +2420,18 @@
                   },
                   {
                       "path":  "LumenOnline_Data/Resources/unity_builtin_extra",
-                      "length":  401688,
-                      "sha256":  "593d40cc48a85cd34a6130d8503c2f104966356d6c85202b66336c5698d1c3b9",
+                      "length":  397752,
+                      "sha256":  "59acd25bf1b1a02fec05a4c8f7d2d40e6cf92db0ccd63658dfd70bd747e6b619",
                       "blocks":  [
-                                     "593d40cc48a85cd34a6130d8503c2f104966356d6c85202b66336c5698d1c3b9"
+                                     "59acd25bf1b1a02fec05a4c8f7d2d40e6cf92db0ccd63658dfd70bd747e6b619"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/RuntimeInitializeOnLoads.json",
-                      "length":  9345,
-                      "sha256":  "35ac23c739c6838f9837bbb8fc86b83c504272a6852b43db3e57a3301523a022",
+                      "length":  9502,
+                      "sha256":  "e4bd574a818392bfceee02d5c06ff6402289a67343be378862e9080f5712a2e4",
                       "blocks":  [
-                                     "35ac23c739c6838f9837bbb8fc86b83c504272a6852b43db3e57a3301523a022"
+                                     "e4bd574a818392bfceee02d5c06ff6402289a67343be378862e9080f5712a2e4"
                                  ]
                   },
                   {
@@ -2445,17 +2445,17 @@
                   {
                       "path":  "LumenOnline_Data/sharedassets0.assets",
                       "length":  503756,
-                      "sha256":  "28b0c32bafe660cf1abaae112b50a3b75c60ef12f3e670b076beccaf9774c060",
+                      "sha256":  "27f0bebfdd6aed5bc465a492e8ca19bb4f116dda51c067abc8d5b37ba3029d72",
                       "blocks":  [
-                                     "28b0c32bafe660cf1abaae112b50a3b75c60ef12f3e670b076beccaf9774c060"
+                                     "27f0bebfdd6aed5bc465a492e8ca19bb4f116dda51c067abc8d5b37ba3029d72"
                                  ]
                   },
                   {
                       "path":  "LumenOnline_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
-                      "length":  1601,
-                      "sha256":  "7d76a9e2135cdb50fc4622803c2619d9c336b3ecf99f0f39eed5b0b43051e5a2",
+                      "length":  1511,
+                      "sha256":  "40b6528ec7252ed5c33d259b062a434444b06cdcfb1f8969b244a57202982bfc",
                       "blocks":  [
-                                     "7d76a9e2135cdb50fc4622803c2619d9c336b3ecf99f0f39eed5b0b43051e5a2"
+                                     "40b6528ec7252ed5c33d259b062a434444b06cdcfb1f8969b244a57202982bfc"
                                  ]
                   },
                   {
